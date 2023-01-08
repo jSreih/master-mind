@@ -4,7 +4,7 @@ name = input("What is your name? ")
 print(f"\nWelcome to Master Mind {name}!")
 lst_colors = ["red", "yellow", "blue", "green", "orange", "pink", "purple", "cyan", "silver", "teal"]
 lst_color_code = random.sample(lst_colors, 4)
-print(f"Answer for demonstration purposes: {lst_color_code}")
+
 
 def FourColors(lst_guess):
   '''Checks to see if the user input less or more than 4 colours'''
